@@ -25,12 +25,7 @@ data "aws_ami" "ubuntu" {
 
   filter {
     name   = "name"
-    values = ["packer-ansible-nginx"]
-  }
-
-  filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
+    values = ["web-nginx-aws"]
   }
 
   owners = ["self"]
