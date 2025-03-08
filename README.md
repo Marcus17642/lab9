@@ -33,6 +33,7 @@ Builds the machine image
 ```
 packer build .
 ```
+You should now have an AMI in your AWS account
 
 Initializes a Terraform working directory
 ```
@@ -50,3 +51,4 @@ Applies the Terraform configuration
 ```
 terraform apply
 ```
+You should now have an instance running from the AMI
