@@ -33,7 +33,7 @@ data "aws_ami" "ubuntu" {
     values = ["hvm"]
   }
 
-  owners = ["self"] # Only fetch AMIs owned by the current AWS account
+  owners = ["self"]
 }
 
 
