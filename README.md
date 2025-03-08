@@ -23,6 +23,8 @@ packer fmt ansible-web.pkr.hcl
 ```
 Checks that ansible-web.pkr.hcl has the right syntax
 (Make sure to do "." instead of ansible-web.pkr.hcl)
+This makes it so that all the files in the current directory
+are referenced
 ```
 packer validate .
 ```
