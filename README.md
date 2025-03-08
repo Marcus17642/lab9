@@ -15,7 +15,6 @@ import to aws
 
 ```
 
-
 packer init .
 
 packer fmt ansible-web.pkr.hcl
@@ -23,4 +22,10 @@ packer fmt ansible-web.pkr.hcl
 packer validate ansible-web.pkr.hcl
 
 packer build ansible-web.pkr.hcl
+```
+
+```
+terraform init
+terraform validate
+terraform apply
 ```
