@@ -40,6 +40,10 @@ Validates the syntax and configuration of the Terraform file
 ```
 terraform validate
 ```
+Generate an execution plan 
+```
+terraform plan
+```
 Applies the Terraform configuration
 ```
 terraform apply
